@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Between us tip Calculator</title>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Poppins:ital,wght@1,200;1,300&display=swap');
+</style>
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <h1>💲Between Us</h1>
+    <div id="element-container">
+      <h3 class="heading">Total Bill</h3>
+      <div class="inputDiv">
+        <label>Rs.</label>
+        <input onkeyup="calculateBill()" type="number" id="totalBill" class="inputText" placeholder="0.00" autocomplete="off">
+      </div>
+      <h3 class="heading">Tip</h3>
+      <div class="inputDiv">
+        <label>Rs.</label>
+        <input onkeyup="calculateBill()" type="number" id="tip" class="inputText" placeholder="0.00" autocomplete="off">
+      </div>
+      <div id="last-container">
+         <div class="people-container">
+         <h3 class="heading">People</h4>
+         <div class="peopleDiv">
+            <button id="increaseButton" onclick="increasePeople()">+</button>
+            <p><span id="people" >1</span></p>
+            <button id="decreaseButton" onclick="decreasePeople()">-</button>
+         </div>
+       </div>
+       <div class="perPersonDiv">
+          <h3 class="heading per-person">Per Person</h3>                        
+          <p class="billPerPersonAmount">Rs.<span id="billPerPerson">0.00</span></p>            
+       </div>
+      </div>
+    </div> 
+  <script src="script.js"></script>
+</body>
+
+</html>

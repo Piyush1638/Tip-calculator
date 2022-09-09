@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      width: 100vw;
+      background: blueviolet;
+      color: white;
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
+  
+  h1{
+    position:fixed;
+    top:5px;
+    padding:5px 25px;
+    border-bottom: 1px solid black;
+    
+  }
+  
+  #element-container{
+    height: 500px;
+    width: 300px;
+    background:#36454F;
+    padding: 30px 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 5px 10px 10px 10px #131111;
+    overflow: hidden;
+  }
+  
+  .heading{
+    margin-bottom: 10px;
+    margin-top: 10px; 
+  }
+  
+  .per-person{
+    text-align: right;
+  }
+  
+  .inputText{
+    margin-left: 3%;
+  } 
+  
+  .inputDiv{
+    border: 1px solid black;
+    border-radius: 999px;
+    display: flex;
+    align-items: centre;
+    padding: 3% 4%;
+    background: #28282B;
+  }
+  
+  input{
+    outline: none;
+    background: transparent;
+    border: none;
+    padding: none;
+    margin: 0;
+    color: white;
+  }
+  
+  #last-container{
+    margin-top:40px;
+  }
+  
+  .peopleDiv{
+    display:flex;
+    align-items:centre;
+  }
+  
+  #people{
+    font-size: 1.5rem;
+    color: #e0d7d7;
+  }
+  
+  #increaseButton{
+    margin-right: 5px;
+    padding: 5px 10px 5px;
+    border: none;
+    border-radius: 35%;
+    background: #a889e6;
+  }
+  
+  #decreaseButton{
+    margin-left: 5px;
+    padding: 5px 10px 5px;
+    border: none;
+    border-radius:50px;
+    background: #a889e6;
+  
+  }
+  
+  #billPerPerson{
+    margin-left: 5px;
+    font-size: 1.5rem;
+    color: #f7f3f3;
+  }
+  
+  .billPerPersonAmount{
+    text-align: right;
+  }
+  
+
+  
+  
